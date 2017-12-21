@@ -1,0 +1,149 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Narrative
+#+DATE: <2017-12-07 Thu>
+#+AUTHOR: Milo Cress
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.3.1 (Org mode 9.1.4)
+
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:
+#+DESCRIPTION:
+#+KEYWORDS:
+#+SUBTITLE: Ross Ulbricht
+#+LATEX_COMPILER: pdflatex
+#+DATE: \today
+
+#+OPTIONS: gid:nil html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t tex:t toc-tag:nil
+#+OPTIONS: toc-todo:nil whn:t
+#+HTML_CONTAINER: div
+#+HTML_HEAD_EXTRA:
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.3.1 (<a href="http://orgmode.org">Org-mode</a> 9.1.4)
+#+LATEX_HEADER:
+
+* Prologue
+
+ dull thrum accompanied the rhythmic shuffling of feet, muffled by the stacks of shelves the shufflers gazed at. It was a hot day, even by California standards, and the heat seemed to permeate through the walls of the library into Ross Ulbricht's soul. He was restless, and shifted his gaze from the laptop on the table in front of him to the window beside him. A patron sitting across from him at the table glanced up momentarily from her book, and buried herself once again in the fantasy world between her pages. But for Ross, escape was not an option. He searched for some breeze, some break in the stillness that stifled him. A shout behind him, followed by a crash, startled him from his reverie.
+
+F*** you!" An elderly man shouted behind him, bellowing at a woman who was in the process of pummelling him with any object she could lay her hands on within arm's reach. Riveted as he was by this exchange, a movement in the corner of his eye brought his focus back to the table where his laptop rested -- or had rested -- until a second ago. Frantically, he called out to the woman across the table, who had snatched up his machine and was sprinting for the exit. Any chance of following her disappeared as the man and woman (who had seemingly forgotten their quarrel) piled themselves on top of Ulbricht's body. Pinned beneath them, all he could hear between his own breath and the pumping of his heart was a wheezing voice above him:
+
++BEGIN_QUOTE
+You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have the right to an attorney. If you cannot afford an attorney, one will be provided for you. Do you understand the rights I have just read to you? With these rights in mind, do you wish to speak to me?"
++END_QUOTE
+
+n that moment, one of the most elusive and enigmatic criminals was brought to justice. The operation that brought Ulbricht to justice was painstakingly choreographed, and  That day, Ulbricht's illicit marketplace for contraband such as fake licenses and drugs, known as the Silk Road, was taken down. But how did the black market's creator, Ross Ulbricht, evolve to embrace the iconic persona of the Dread Pirate Roberts, a symbol of rebellion, libertarianism, and anonymity on the Dark Web?
+
+* Dark Web Intro
+
+he contents of Ross's laptop would later serve as a primary source of evidence in the case against him. Most damning of all, however, was his laptop's connection to the dark web, and to a server he rented in Iceland. This evidence could only be gathered directly from his computer because of the nature of the technology he used. Tor, for example, the service that he used to browse the web anonymously, as well as to host his black-market website, the Silk Road, not only scrambles the /contents/ of messages, but also the /source and destination/, by routing all traffic through a massive network of layered encryption. The name Tor is itself an acronym, which stands for The Onion Router, so called because all traffic enters the system encrypted in three layers. As the message traverses the network, layers are incrementally peeled off, until the message exits the network in a format intelligible to the recipient computer (such as a webpage request, or a social media post). Tracing this traffic is almost impossible because of the strong encryption the system uses, leaving governing bodies at a loss for methods to combat illicit traffic on the dark web.
+
+articularly distressing to regulators are websites which run entirely within the Tor network. Unlike Google or Netflix, these so-called "hidden services" are designed to be completely anonymous -- both visitors and servers can interact without either knowing who the other is. This is a very powerful concept for anonymity.
+
++BEGIN_QUOTE
+an is least himself when he talks in his own person. Give him a mask, and he will tell you the truth.
++END_QUOTE
+
+or example, consider an activist within an oppressive government wishing to leak classified or restricted information to inform the global community. Naturally, this person would require anonymity in order to speak out, especially in a nation which punishes protest and restricts free speech. Imagine that a website has been set up by fellow dissidents within this country in order to track human rights violations committed by the regime. If the regime were able to locate the dissidents' server, they would face punishment, and the truth of the atrocities may stay buried. The power of the dark web is its ability to connect these people in an anonymous way -- at no point must the leaker reveal her identity, nor must the dissidents reveal their location.
+
+owever, this technology had a great capacity for abuse. On the "clearnet" (any part of the web accessible via a search engine, such as [[https://google.com][Google]], sellers of drugs could only stay anonymous by keeping the address of their website hidden. The problem is, in order to get any sort of traffic or customer base, that address must be entrusted to /someone/. As the popularity of the black-market increases, so does the risk that this address falls into the hands of a law enforcement agency, who could then discover the location of the sellers' servers. This is exactly the problem that the dark web aims to solve.
+
+lbricht was not the first person to attempt to sell drugs on the dark web. What made him successful was that he managed to solve a problem that had been the downfall of all of his predecessors -- payment. 
+
+* The Silk Road's beginnings
+  The problem of payment over the internet was not a new one. Most online vendors do not even consider it a problem, because of the robust suites of electronic payment transfer that have been developed in the past decade. But vendors of illicit goods are often stymied by the very anonymity that protects them -- as linking a Paypal account, say, to their black market, or arranging a wire transfer through Western Union would drastically increase their chances of getting caught, and make it simple for authorities to trace the origin of electronic payments from source to destination. 
+
+  The root of the problem was trust. If you can't trust someone you don't know, how can you do business with them? This was the problem that services like Paypal solve: they serve as a trusted intermediary between two parties that may not trust each other. What if you can't trust this governing body? This was the question that plagued libertarians like Ross.
+
+  Ulbricht's libertarian free-maret ethos shaped his life and career long before he built a black-market on the Dark Web. From a young age, he pursued a means of freeing himself and others from what he believed to be a coercive tyranny. When his doctoral thesis was rejected, he turned his focus to business. Eventually, he bagan to realize that he had the power to turn his libertarian ideals into reality.
+
+  This power came from a new and decentralized solution to the problem of trust -- Bitcoin. 
+
+  Bitcoin maintained an honest, trustworthy system, by making each user of the system responsible for keeping the system honest. Every transaction is recorded into a ledger known as the blockchain by bitcoin "miners," in groups referred to as "blocks" (these blocks are chained together over time, hence the term "blockchain"). These miners race each other to produce new blocks, and out inconsistencies in the transactions. The first miner to calculate a complete block is rewarded a certain amount of bitcoin (12.5 at the time of writing). A new block is produced, on average, once every ten minutes.
+
+  The genius of this idea is that an adversary who wants to subvert the system to her own ends (by modifying the transaction ledger) is forced to compete in this race against the entire legitimate bitcoin network -- who likely outnumber her in computing power by several orders of magnitude. 
+
+  No longer were dark net markets forced to trust a governing body. Using the emerging Bitcoin technology, they were now entering into a golden age of money-transfer anonymity.
+
+  Here, we meet Ross Ulbricht once again. This time, rather than the drug kingpin he became, he is the gregarious, geeky scientist his friends and family knew him to be. 
+
+  But nothing seems to be going his way. His Ph.D. is rejected, the business he and his neighbor started is failing, and he's fighting with his girlfriend. The idea for a truly free market had been bouncing around in his head for some time, but it is now that this concept starts to take root. Reckoning he'll need some kind of capital to start out with, he clears out his cabin, and starts growing mushrooms (the psychedelic kind). Then, he gets to work learning the fundamentals of setting up a truly anonymous and secure dark net market. He calls it the Silk Road.
+
+  It's hard work, and Ross's market is nowhere near paying off. His self-taught programming is starting to get him into trouble. Ross starts keeping a personal journal to record his thoughts and goals.
+
++BEGIN_QUOTE
+rogramming now. Patchwork php mysql. Don't know how to host my own site. Didn't know how to run bitcoind. Got the basics of my site written. Launched it on freedomhosting. Announced it on the bitcointalk forums. Only a few days after launch, I got my first signups, and then my first message. I was so excited I didn't know what to do with myself. Little by little, people signed up, and vendors signed up, and then it happened. My first order. I'll never forget it. The next couple of months, I sold about 10 lbs of shrooms through my site. Some orders were as small as a gram, and others were in the qp range. Before long, I completely sold out.
++END_QUOTE
+
+* The birth of the Dread Pirate Roberts
+  As customers started to trickle into Ross's dark net market, Ross realized that for it to become the revolution he hoped it to be, he needed to create for himself a leader. The persona he created, he modeled after the movie character, the Dread Pirate Roberts, in part to add a sense of the exotic, and in part to form the basis of his legal defense -- in the movie The Princess Bride, the Dread Pirate Roberts was never one person, but rather a title passed on from master to worthy apprentice. What he created transended plausible deniability. The Dread Pirate Roberts (DPR) created became an emblem of rebellion against the government, turned buying drugs and illicit goods from a deplorable act of desperation to an honorable declaration of freedom. This charisma was Ulbricht's greatest weapon, but the inflated ego that came with it would prove his downfall.
+
+* Ulbricht's first mistake: Frosty stack exchange article
+  It was in 2013 that Ross made his first really big mistake. On the internet technology forum, Stack Overflow, he posted a question regarding his dark net market. 
+
++BEGIN_QUOTE
+'m trying to connect to a Tor hidden service using the following PHP code:
+
++BEGIN_SRC php
+
+url = 'http://jhiwjjlqpyawmpjx.onion/'
+ch = curl_init();
+url_setopt($ch, CURLOPT_URL, $url);
+url_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+url_setopt($ch, CURLOPT_PROXY, "http://127.0.0.1:9050/");
+url_setopt($ch, CURLOPT_PROXYTYPE, CURLPROXY_SOCKS5);
+output = curl_exec($ch);
+curl_error = curl_error($ch);
+url_close($ch);
+
+rint_r($output);
+rint_r($curl_error);
++END_SRC
+
+hen I run it, I get the following error:
+
++BEGIN_EXAMPLE
+ouldn't resolve host name
++END_EXAMPLE
+
+owever, when I run the following command from my command line in Ubuntu:
+
++BEGIN_SRC shell
+ curl -v --socks5-hostname localhost:9050 http://jhiwjjlqpyawmpjx.onion
++END_SRC
+
+ get a response as expected
+
+he PHP cURL documentations says this:
+
++BEGIN_EXAMPLE
+-socks5-hostname
+se  the  specified  SOCKS5 proxy (and let the proxy resolve the host name).
++END_EXAMPLE
+ believe the reason it works from the command line is because Tor (the proxy) is resolving the .onion hostname, which it recognizes. When running the PHP code above, my guess is that cURL or PHP is trying to resolve the .onion hostname and doesn't recognize it. I've searched for a way to tell cURL/PHP to let the proxy resolve the hostname, but I can't find a way.
++END_QUOTE
+
+he trouble was, he slipped up, and used his personal email to sign up for his account.
+
+* Ross Goes to the Dark Side
+  Ross was starting to take a dark turn in his life. Business could not have been better, and yet the ardor of fighting off hackers, and the omnipresent paranoia were starting to take a toll on him. 
+
+  His business associates, his friends, were being taken down by the authorities, one by one. Each one took with them a vital piece of the Silk Road's infrastructure. One of his lieutenants was embezzling Silk Road funds. The stress overcame him. He needed some outlet for his frustration, some sense of relief from his omnipresent guilt. 
+
+  So, he decided to deal with the one problem he could handle, using the system that he himself had built. He would kill the thief. He messaged one of his associates, Nob, a drug dealer and gangster in the area, and told him that he had a situation that required violence to resolve. What he didn't know was that Nob was not a gangster, or even a drug dealer. His name was Carl Force, and he was a DEA agent, tasked with infiltrating Ulbricht's network. Rather than expose himself as an agent, he chose to play along with the ruse. Luckily for force, the thief had been taken into custody only a few days before, and was more than cooperative with the police. So, Force doused him in tomato sauce and framed the scene to appear as a bloody homocide. Ross was seemingly convinced by the photos that Force sent, and sent him $80,000 in bitcoin.
+
+  A part of Ross knew that it was only a matter of time before he would be taken down too. But that voice of hesitance was being drowned out by his ego. He could not have achieved what he had without it. But he could not escape from the prison he had built himself without admitting that somewhere, someone was capable of finding him. This thought, in itself, was unbearable. So, day after day, he forced himself to believe that his system was secure against attackers, even when security advisers he trusted warned him of potential flaws. His system was not secure. A joint law enforcement operation had managed to hack his servers, and view the logs of his correspondence with other criminals on the network. As it turned out, he had commissioned another hit, this time on a blackmailer who claimed to have Ulbricht's identity. Ross had fallen from a radical idealist who had spoken out against the use of the dark web as a tool for harm to a hardened kingpin, set on doing anything that would keep him from facing justice.
+
+* Closing the loop
+   The police already had the evidence they needed to trace Ulbricht to DPR and the Silk Road, but they hadn't yet made the connection. It was dumb luck that an agent assigned to investigate a small-time mushroom dealer happened across the Silk Road investigation, and drew the parallel between the user "Frosty" and the Stack Overflow article from several years before.
+
+   When the authorities took down the Silk Road, they found a small snippet of code, which perfectly matched the code that was given to him in the Stack Overflow thread.
+
+   This was compelling proof, but not enough to convict him. What they would need was a stronger link between Ross Ulbricht and his alter-ego, the Dread Pirate Roberts. His laptop, they knew, would be a trove for such information, yet there was a great risk that the encryption on the hard disk would mean that shutting the laptop's cover would almost certainly make any data on it irrecoverable without a master password that Ross would likely refuse to give. For several days, the growing Silk Road task force was at an impasse.
+
+   Then, an unexpected opportunity presented itself. Ulbricht left his home to go to the library a few blocks from where the police were stationed. Several agents entered the building after him, and set the scene for what was quite possibly the highest-stakes improv show performed. The audience was Ross Ulbricht, sitting near a window in the corner of the room, craving an escape. Escape was no longer an option.
