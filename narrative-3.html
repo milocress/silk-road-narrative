@@ -243,20 +243,6 @@
       });
     </script>
   </head>
-<div class="view intro-1 intro hm-white-light jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(./image1.png);">
-            <div class="full-bg-img">
-                <div class="container flex-center">
-                    <div class="row mt-5">
-                        <div class="col-md-12 mb-3">
-                            <div class="text-center">
-                                <h1 class="white-text display-1 mb-2 wow fadeInDown" data-wow-delay="0.3s">Silk Road</h1>
-                                <h3 class="font-up mb-3 mt-1 font-bold wow fadeInDown" data-wow-delay="0.4s">The Story of the Dread Pirate Roberts</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 <body>
   <main>
   <header>
@@ -278,64 +264,102 @@
   </header>
   <div id="content" class="container">
     <div class="row"><div class="col-md-9">
-    <div id="outline-container-sec-1" class="outline-2">
-        <div class="outline-text-2" id="text-1">
-            <p class="wow fadeIn">
-                A dull thrum accompanied the rhythmic shuffling of feet, muffled by the stacks of shelves the shufflers gazed at. It was a hot day, even by California standards, and the heat seemed to permeate through the walls of the library into Ross Ulbricht's soul. He was restless, and shifted his gaze from the laptop on the table in front of him to the window beside him. A patron sitting across from him at the table glanced up momentarily from her book, and buried herself once again in the fantasy world between her pages. But for Ross, escape was not an option. He searched for some breeze, some break in the stillness that stifled him. A shout behind him, followed by a crash, startled him from his reverie.
-            </p>
+                    <div id="outline-container-sec-5" class="outline-2">
+                        <div class="outline-text-2" id="text-5">
+                            <p class="wow fadeIn">
+                                It was in 2013 that Ross made his first really big mistake. On the internet technology forum, Stack Overflow, he posted a question regarding his dark net market. 
+                            </p>
     
-            <p class="wow fadeIn">
-                "F*** you!" An elderly man shouted behind him, bellowing at a woman who was in the process of pummelling him with any object within arm's reach. Riveted as he was by this exchange, a movement in the corner of his eye brought his focus back to the table where his laptop rested &#x2013; or had rested &#x2013; until a second ago. Frantically, he called out to the woman across the table, who had snatched up his machine and was sprinting for the exit. Any chance of following her disappeared as the man and woman (who had seemingly forgotten their quarrel) piled themselves on top of Ulbricht's body. Pinned beneath them, all he could hear between his own breath and the pumping of his heart was a wheezing voice above him:
-            </p>
+                            <blockquote>
+                                <p class="wow fadeIn">
+                                    I'm trying to connect to a Tor hidden service using the following PHP code:
+                                </p>
     
-            <blockquote>
-                <p class="wow fadeIn">
-                    "You have the right to remain silent. Anything you say can and will be used against you in a court of law. You have the right to an attorney. If you cannot afford an attorney, one will be provided for you. Do you understand the rights I have just read to you? With these rights in mind, do you wish to speak to me?"
-                </p>
-            </blockquote>
+                                <div class="org-src-container">
     
-            <p class="wow fadeIn">
-                In that moment, one of the most elusive and enigmatic cyber-criminals was brought to justice. That day, Ulbricht's illicit marketplace for contraband such as fake licenses and drugs, known as the Silk Road, was taken down. But how did the black market's creator, Ross Ulbricht, evolve to embrace the iconic persona of the Dread Pirate Roberts, a symbol of rebellion, libertarianism, and anonymity on the Dark Web?
-            </p>
-        </div>
-    </div>
+                                    <pre class="src src-php"><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">url</span> = <span style="color: #2d9574;">'http://jhiwjjlqpyawmpjx.onion/'</span>
+                                        <span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">ch</span> = curl_init<span style="color: #4f97d7;">()</span>;
+    curl_setopt<span style="color: #4f97d7;">(</span><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">ch</span>, <span style="color: #a45bad;">CURLOPT_URL</span>, <span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">url</span><span style="color: #4f97d7;">)</span>;
+    curl_setopt<span style="color: #4f97d7;">(</span><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">ch</span>, <span style="color: #a45bad;">CURLOPT_RETURNTRANSFER</span>, <span style="color: #a45bad;">true</span><span style="color: #4f97d7;">)</span>;
+    curl_setopt<span style="color: #4f97d7;">(</span><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">ch</span>, <span style="color: #a45bad;">CURLOPT_PROXY</span>, <span style="color: #2d9574;">"http://127.0.0.1:9050/"</span><span style="color: #4f97d7;">)</span>;
+    curl_setopt<span style="color: #4f97d7;">(</span><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">ch</span>, <span style="color: #a45bad;">CURLOPT_PROXYTYPE</span>, <span style="color: #a45bad;">CURLPROXY_SOCKS5</span><span style="color: #4f97d7;">)</span>;
+                                        <span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">output</span> = curl_exec<span style="color: #4f97d7;">(</span><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">ch</span><span style="color: #4f97d7;">)</span>;
+                                        <span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">curl_error</span> = curl_error<span style="color: #4f97d7;">(</span><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">ch</span><span style="color: #4f97d7;">)</span>;
+    curl_close<span style="color: #4f97d7;">(</span><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">ch</span><span style="color: #4f97d7;">)</span>;
+    
+    print_r<span style="color: #4f97d7;">(</span><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">output</span><span style="color: #4f97d7;">)</span>;
+    print_r<span style="color: #4f97d7;">(</span><span style="color: #b2b2b2; background-color: #292b2e;">$</span><span style="color: #7590db;">curl_error</span><span style="color: #4f97d7;">)</span>;
+                                    </pre>
+                                </div>
+    
+    
+                                <p class="wow fadeIn">
+                                    When I run it, I get the following error:
+                                </p>
+    
+                                <pre class="example">
+    Couldn't resolve host name
+                                </pre>
+    
+                                <p class="wow fadeIn">
+                                    However, when I run the following command from my command line in Ubuntu:
+                                </p>
+    
+                                <div class="org-src-container">
+    
+                                    <pre class="src src-shell">curl -v --socks5-hostname localhost:9050 http://jhiwjjlqpyawmpjx.onion
+                                    </pre>
+                                </div>
+    
+                                <p class="wow fadeIn">
+                                    I get a response as expected
+                                </p>
+    
+                                <p class="wow fadeIn">
+                                    The PHP cURL documentations says this:
+                                </p>
+    
+                                <pre class="example">
+    --socks5-hostname
+    Use  the  specified  SOCKS5 proxy (and let the proxy resolve the host name).
+                                </pre>
+                                <p class="wow fadeIn">
+                                    I believe the reason it works from the command line is because Tor (the proxy) is resolving the .onion hostname, which it recognizes. When running the PHP code above, my guess is that cURL or PHP is trying to resolve the .onion hostname and doesn't recognize it. I've searched for a way to tell cURL/PHP to let the proxy resolve the hostname, but I can't find a way.
+                                </p>
+                            </blockquote>
+    
+                            <p class="wow fadeIn">
+                                The trouble was, he slipped up, and used his personal email to sign up for his account.
+                            </p>
+                        </div>
+                    </div>
 </div></div></div>
-<div class="view intro-1 intro hm-white-light jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(./image2.png);">
-  <div class="full-bg-img">
-  </div>
-</div> 
+<div class="view intro-1 intro hm-white-light jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(./image4.png);">
+            <div class="full-bg-img">
+            </div>
+        </div> 
 <br>
 <div class="container"><div class="row"><div class="col-md-9">
-    <div id="outline-container-sec-2" class="outline-2">
-        <div class="outline-text-2" id="text-2">
+    <div id="outline-container-sec-6" class="outline-2">
+        <div class="outline-text-2" id="text-6">
             <p class="wow fadeIn">
-                The contents of Ross's laptop would later serve as a primary source of evidence in the case against him. Most damning of all, however, was his laptop's connection to the dark web, and to a server he rented in Iceland. This evidence could only be gathered directly from his computer because of the nature of the technology he used. Tor, for example, the service that he used to browse the web anonymously, as well as to host his black-market website, the Silk Road, not only scrambles the <i>contents</i> of messages, but also the <i>source and destination</i>, by routing all traffic through a massive network of layered encryption. The name Tor is itself an acronym, which stands for The Onion Router, so called because all traffic enters the system encrypted in three layers. As the message traverses the network, layers are incrementally peeled off, until the message exits the network in a format intelligible to the recipient computer (such as a webpage request, or a social media post). Tracing this traffic is almost impossible because of the strong encryption the system uses, leaving governing bodies at a loss for methods to combat illicit traffic on the dark web.
+                Ross was starting to take a dark turn in his life. Business could not have been better, and yet the ardor of fighting off hackers, and the omnipresent paranoia were starting to take a toll on him. 
             </p>
     
             <p class="wow fadeIn">
-                Particularly distressing to regulators are websites which run entirely within the Tor network. Unlike Google or Netflix, these so-called "hidden services" are designed to be completely anonymous &#x2013; both visitors and servers can interact without either knowing who the other is. This is a very powerful concept for anonymity.
-            </p>
-    
-            <blockquote>
-                <p class="wow fadeIn">
-                    Man is least himself when he talks in his own person. Give him a mask, and he will tell you the truth. - Oscar Wilde
-                </p>
-            </blockquote>
-    
-            <p class="wow fadeIn">
-                For example, consider an activist within an oppressive government wishing to leak classified or restricted information to inform the global community. Naturally, this person would require anonymity in order to speak out, especially in a nation which punishes protest and restricts free speech. Imagine that a website has been set up by fellow dissidents within this country in order to track human rights violations committed by the regime. If the regime were able to locate the dissidents' server, they would face punishment, and the truth of the atrocities may stay buried. The power of the dark web is its ability to connect these people in an anonymous way &#x2013; at no point must the leaker reveal her identity, nor must the dissidents reveal their location.
+                His business associates, his friends, were being taken down by the authorities, one by one. Each one took with them a vital piece of the Silk Road's infrastructure. One of his lieutenants was embezzling Silk Road funds. The stress overcame him. He needed some outlet for his frustration, some sense of relief from his guilt. 
             </p>
     
             <p class="wow fadeIn">
-                However, this technology had a great capacity for abuse. On the "clearnet" (any part of the web accessible via a search engine, such as <a href="https://google.com">Google</a>, sellers of drugs could only stay anonymous by keeping the address of their website hidden. The problem is, in order to get any sort of traffic or customer base, that address must be entrusted to <i>someone</i>. As the popularity of the black-market increases, so does the risk that this address falls into the hands of a law enforcement agency, who could then discover the location of the sellers' servers. This is exactly the problem that the dark web aims to solve.
+                So, he decided to deal with the one problem he could handle, using the system that he himself had built. He would kill the thief. He messaged one of his associates, Nob, a drug dealer and gangster in the area, and told him that he had a situation that required violence to resolve. What he didn't know was that Nob was not a gangster, or even a drug dealer. His name was Carl Force, and he was a DEA agent, tasked with infiltrating Ulbricht's network. Rather than expose himself as an agent, he chose to play along with the ruse. Luckily for Force, the thief had been taken into custody only a few days before, and was more than cooperative with the police. So, Force doused him in tomato sauce and framed the scene to appear as a bloody homocide. Ross was seemingly convinced by the photos that Force sent, and sent him $80,000 in bitcoin.
             </p>
     
             <p class="wow fadeIn">
-                Ulbricht was not the first person to attempt to sell drugs on the dark web. What made him successful was that he managed to solve a problem that had been the downfall of all of his predecessors &#x2013; payment. 
+                A part of Ross knew that it was only a matter of time before he would be taken down too. But that voice of hesitance was being drowned out by his ego. He could not have achieved what he had without it. But he could not escape from the prison he had built himself without admitting that somewhere, someone was capable of finding him. This thought, in itself, was unbearable. So, day after day, he forced himself to believe that his system was secure against attackers, even when security advisers he trusted warned him of potential flaws. His system was not secure. A joint law enforcement operation had managed to hack his servers, and view the logs of his correspondence with other criminals on the network. As it turned out, he had commissioned another hit, this time on a blackmailer who claimed to have Ulbricht's identity. Ross had fallen from a radical idealist who had spoken out against the use of the dark web as a tool for harm to a hardened kingpin, set on doing anything that would keep him from facing justice.
             </p>
         </div>
     </div>
-    <p class="wow fadeIn"><a class="btn btn-primary btn-lg" href="./narrative-2.html" role="button">Read more &raquo;</a></p>
+    <p class="wow fadeIn"><a class="btn btn-primary btn-lg" href="./narrative-4.html" role="button">Read more &raquo;</a></p>
 </div><div class="col-md-3"><nav id="table-of-contents">
     <div id="text-table-of-contents" class="bs-docs-sidebar">
       <ul class="nav_org_mode">
