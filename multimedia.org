@@ -11,7 +11,7 @@
 #+CREATOR: Emacs 25.3.1 (Org mode 9.1.4)
 
 * Task Summary
-  I've written a narrative essay, and I want to present it in a compelling way. Using org-mode, I've created a skeleton-essay, but it doesn't have any of the frills that I'd like it to, such as images, multiple pages, etc.
+  I've written a narrative essay, and I want to present it in a compelling way. Using org-modegit@github.com:zephyrys/silk-road-narrative.github.io.git, I've created a skeleton-essay, but it doesn't have any of the frills that I'd like it to, such as images, multiple pages, etc.
 
   My goal is to use literate programming to accomplish this goal.
 
@@ -782,7 +782,7 @@ With this in mind, I've modified the =page_footer= code block to change the link
       <p class="wow fadeIn"><a class="btn btn-primary btn-lg" href="./narrative-2.html" role="button">Read more &raquo;</a></p>
   <<page_footer>>
 #+END_SRC
-#+BEGIN_SRC html :tangle narrative-1.html :exports none :noweb yes
+#+BEGIN_SRC html :tangle index.html :exports none :noweb yes
   <<page_header>>
   <<parallax-1>>
   <<content_preamble>>
